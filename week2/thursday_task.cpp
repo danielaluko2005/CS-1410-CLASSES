@@ -14,5 +14,6 @@ int main(){
     cout<<"Enter n::--"<<"\n";
     cin>>n;
     payment=((p*r)/(1-pow((1+r),-n)));
-    cout<<"The Payment is"<<payment<<endl;
+    cout<<"The Payment is "<<payment<<endl;
+    return 0;
 }
