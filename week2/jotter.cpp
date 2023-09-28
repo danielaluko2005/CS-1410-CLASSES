@@ -1,18 +1,20 @@
 # include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main(){
-    int z;
-    float c=3;
-    float f=5;
-    
-    c=(5.0/9)*(f-32);
-    cout<<c<<"\n";
-    cout<<z;
+    double v;
+    double u;
+    double t;
+    double a;
+
+    cout<<"Enter value for V::-";
+    cin>>v;
+    cout<<"Enter value for u::-";
+    cin>>u;
+    cout<<"Enter value for t::-";
+    cin>>t;
+    a=(v-u)/t;
+    cout << fixed << setprecision(2);
+    cout<<a<<endl;
 }
-    // int x=9;
-    // int y=10;
-    // int z;
-    // z=x>y?:x=y;
-    // cout<<z<<endl;
-    // }

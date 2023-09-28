@@ -1,7 +1,10 @@
 # include <iostream>
+#include <cmath>
+#include <iomanip>
 using namespace std;
 
 int main(){
+
     float exam1;
     float exam2;
     float exam3;
