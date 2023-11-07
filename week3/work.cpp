@@ -34,6 +34,6 @@ int main(){
 
     cout<<"Bool literal true"<<true<<endl;
     cout<<"just A"<<"A"<<endl;
-    cout<<"Static_char<char>(97)"<<static_cast<char>(97);
+    cout<<"Static_char<char>(97) "<<static_cast<char>(97)<<endl;
 
 }

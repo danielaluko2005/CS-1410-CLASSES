@@ -37,7 +37,6 @@ int main()
         }
         
     }while(guess>=0);
-    
     cout<<"done";
     
 }
